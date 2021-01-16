@@ -115,7 +115,9 @@ PingCAP 作为国内领先的开源软件公司，旗下文档管理已初步做
 
    使用已有的成熟的 Markdown lint 对内容进行检测。
 
-   通过 AST/分词等方式对 Markdown 文件进行解析，对 9 个高频的错误进行检测与自动修复
+   通过 AST/分词等方式对 Markdown 文件进行解析，对 9 个高频的错误进行检测与自动修复。
+
+   通过 AST/分词对自然语言进行解析，对一些中英文混用等错误进行检测。
 
    1. 禁用词
 
@@ -153,6 +155,10 @@ PingCAP 作为国内领先的开源软件公司，旗下文档管理已初步做
 ## Testing Plan
 
 检测工具使用风格指南中的案例作为测试内容。
+对 PingCAP 旗下文档，例如：doc, doc-cn, chaos-mesh, tikv 等文档进行扫描，自动发现问题生成 issue，根据问题自动生成修复 PR。
+对本次 hackathon 参赛队伍的 RFC 进行扫描与诊断。
+对 CNCF 项目，如：kubernetes 等项目的文档进行诊断。
+
 
 ## Open issues (if applicable)
 
