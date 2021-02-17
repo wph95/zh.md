@@ -1,3 +1,6 @@
+# THIS PROJECT MOVE TO https://github.com/tidb-incubator/zh.md
+
+
 # 2020 PingCAP Hackathon Project -- zh.md
 
 目录
